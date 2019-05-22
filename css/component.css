@@ -1,0 +1,357 @@
+.cbp-hrmenu {
+	margin-top:18px;
+	
+}
+#menu .col-md-12 {
+	padding:0;
+}
+/* general ul style */
+.cbp-hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+
+/* first level ul style */
+.cbp-hrmenu .cbp-hrsub-inner {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.cbp-hrmenu{
+	padding: 0px;
+	
+}
+.cbp-hrmenu .cbp-hrsub.sub-little.mno-home {
+	margin-left: 0;
+}
+.cbp-hrmenu .cbp-hrsub.sub-little {
+	width: 230px;
+	left:-60px;
+	padding: 1.2em 0 2em 0;
+    margin-top:28px;
+    z-index: 99999;
+}
+.cbp-hrmenu > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.cbp-hrmenu > ul > li > a {
+	font-weight: 400;
+	font-size: 13px;
+	padding: 1.4em 1.8em;
+	color: #212121;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.cbp-hrmenu > ul li a.lnk-menu:hover {
+	color: #212121;
+	text-decoration:none;
+	border-bottom:2px solid #f59123;	
+}
+.cbp-hrmenu > ul li a.lnk-menu.active {
+	border-bottom:2px solid #f59123;	
+	color: #212121;	
+}
+.cbp-hrmenu > ul > li.cbp-hropen a {
+	color: #333;
+	background: #fff;	
+	width:100%;
+}
+.cbp-hrmenu > ul li.cbp-hropen a.lnk-menu {
+	color: #212121;
+	border-bottom:2px solid #f59123;	
+}
+.cbp-hrmenu > ul li.cbp-hropen a.lnk-menu:hover {
+	color: #212121;
+	border-bottom:2px solid #f59123;	
+	text-decoration:none;
+}
+
+.cbp-hrmenu ul.menu-pages li{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 2px 0;
+	width:100%;
+	float:left;
+	font-size: 13px;
+    text-transform: uppercase;
+}
+/* sub-menu */
+.cbp-hrmenu .cbp-hrsub {
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 1100px;
+}
+
+.cbp-hropen .cbp-hrsub {
+	display: block;
+	padding-bottom: 3em;
+	z-index: 99999;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.cbp-hrmenu .cbp-hrsub-inner > .content-sub-menu {
+	width: 100%;
+	float: left;
+	padding: 0;
+	
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:before,
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	clear: both;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner > div a {
+	line-height: 2em;
+	text-decoration: none;
+	float:left;
+	width:100%;
+}
+.cbp-hrmenu .cbp-hrsub-inner > div a:hover {
+	text-decoration: none;
+	background:#e7e7e7;
+}
+.cbp-hrmenu .cbp-hrsub-inner ul.menu-pages li a {
+	padding: 3px 0 3px 5px;
+}
+.cbp-hrsub h4 {
+	color: #afdefa;
+	padding: 2em 0 0.6em;
+	margin: 0;
+	font-size: 160%;
+	font-weight: 300;
+}
+
+/**** PLAYERS ****/
+.jm-item {
+	padding: 2em 1em 1em 1em;
+	display: inline-block;
+	text-align: center;
+}
+.jm-item-wrapper {
+	position: relative;
+}
+.jm-item-image {
+	position: relative;
+	overflow: hidden;
+}
+.jm-item-image img {
+	display: block;
+	width: 100%;
+}
+
+.jm-item-overlay {
+	background: #000;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+}
+.cbp-hrmenu .jm-item-wrapper:hover .jm-item-overlay {
+	opacity: 0.3;
+}
+.content-sub-menu .jm-item-button {
+    position: absolute;
+    margin: 50px auto;
+}
+.cbp-hrmenu .cbp-hssub-rows ul li .jm-item-button a {
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.cbp-hrmenu .jm-item span {
+	color:#212121;
+	font-family:'Open sans', Sans-Serif;
+	font-weight: 400;
+	font-size:13px;
+	text-transform: uppercase;	
+}
+.jm-item p {
+	font-size:11px;
+	text-transform: uppercase;
+	color:#333;
+	
+}
+.jm-item .menu-details-player p {
+	background: #e7e7e7;
+	margin-bottom:0;
+}
+.cbp-hrmenu .cbp-hssub-rows ul li .jm-item-button a:hover {
+	background: #f8a953;	
+}
+
+.jm-item:hover .jm-item-title {
+	left: -100%;
+}
+.second .jm-item-description {
+	position: absolute;
+	text-align: left;
+	font-family:'Open sans', Sans-Serif;
+	font-weight: 400;
+	font-size:13px;
+	width: 100%;
+	height: 100%;
+	padding: 18px 10px 10px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	background: rgba(0,0,0,0.6);
+	top: 100%;
+	-webkit-transition: all 0.4s ease-in 0s;
+	-moz-transition: all 0.4s ease-in 0s;
+	-o-transition: all 0.4s ease-in 0s;
+	transition: all 0.4s ease-in 0s;
+}
+.second .jm-item-description p {
+	color: #fff;
+}
+.jm-item:hover .jm-item-description {
+	top: 0;
+}
+.cbp-hrmenu .cbp-hrsub-inner.cbp-hssub-rows {
+	padding:0;
+}
+.cbp-hrsub .cbp-hrsub-inner.cbp-hssub-rows h4 {
+	color: #333;
+    padding: 25px 0 0px 15px;
+    font-family: 'Open sans', Sans-Serif;
+    font-weight: 600;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.cbp-hrsub-inner.cbp-hssub-rows li.menu-viewall {
+	width: 100%;
+    padding: 10px;
+    background: #f59123;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top:30px;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.cbp-hrsub-inner.cbp-hssub-rows li.menu-viewall:hover {
+	background:#faac55;
+}
+.cbp-hrsub-inner.cbp-hssub-rows li.menu-viewall a {
+	color: #fff;
+    text-align: center;
+    background: #f59123;
+    font-family:'Oswald', Sans-Serif;
+    font-weight: 600;
+    font-size:18px;
+}
+.cbp-hrsub-inner.cbp-hssub-rows li.menu-viewall a:hover {
+	color: #fff;
+    text-align: center;
+}
+li.menu-viewall div {
+	padding:10px;
+}
+
+.cbp-hrsub-inner.cbp-hssub-rows ul li {
+    width: 16.35%;
+    display: inline-block;
+    vertical-align: top;
+    opacity: 1;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.cbp-hrsub-inner.cbp-hssub-rows > li a p {
+	font-size:11px;
+	text-transform: uppercase;
+	color:#333;
+}
+.cbp-hrsub-inner.cbp-hssub-rows > li a span {
+	color:#212121;
+	font-family:'Open sans', Sans-Serif;
+	font-weight: 400;
+	font-size:13px;
+	text-transform: uppercase;
+}
+.menu-details-player {
+	width:100%;
+	border-top: 1px solid #e7e7e7;
+    padding: 2px 0 2px 0;
+    margin-top: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+#menu .cbp-hrmenu a.ca-more {
+	padding: 0;
+	background-color:transparent;
+	color: #fff;
+}
+#menu .cbp-hrmenu a.ca-more i {
+	float:left;
+}
+
+/**** BUTTON MENU RESPONSIVE ******/
+.bt-menu {
+	display:none;
+}
+
+/* media queries */
+
+
+@media screen and (max-width: 680px) { 
+
+	.cbp-hrmenu {
+		font-size: 120%;
+		border: none;
+	}
+
+	.cbp-hrmenu .cbp-hrsub-inner {
+		padding: 0 2em;
+		font-size: 75%;
+	}
+	.cbp-hrmenu > ul > li > a { 
+		display: block;
+		padding: 1em 2em;
+	}
+
+	.cbp-hrmenu .cbp-hrsub { 
+		position: relative;
+	}
+
+	.cbp-hrsub h4 {
+		padding-top: 0.6em;
+	}
+
+}
+
+@media screen and (max-width: 36em) { 
+	.cbp-hrmenu .cbp-hrsub-inner > div {
+		width: 100%;
+		float: none;
+		padding: 0 2em;
+	}
+}
+
+
+
